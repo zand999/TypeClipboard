@@ -89,7 +89,7 @@ namespace TypeClipboard
                 Key keyPressed = KeyInterop.KeyFromVirtualKey(vkCode);
 
                 // Explicitly putting this here because we need to return before CallNextHookEx
-                if (keyPressed == Key.F8)
+                if (keyPressed == Key.F13)
                 {
                     // Call Type Clipboard
                     _tc.TypeClipboard(100);
